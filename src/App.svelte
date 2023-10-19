@@ -32,6 +32,8 @@
   </script>
   
   <main>
+	<p>Mensaje a Cifrar:</p>
+	<p>{message}</p>
 	<button on:click={encryptMessage}>Cifrar Mensaje</button>
 	<button on:click={decryptMessage}>Descifrar Mensaje</button>
 	{#if encryptedMessage}
